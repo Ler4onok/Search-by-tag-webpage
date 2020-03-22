@@ -62,9 +62,20 @@ html, body {
     background-color: #fdaea9a1;
 }
 
+.sortElements{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .resultHeader{
-    margin-top: 100px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
     font-size: 35px;
+}
+
+.resultWrapper{
+    width: 500px;
 }
 

@@ -42,7 +42,8 @@ class TagFilter extends React.Component {
             <TextField {...params} label="Filters" variant="outlined" />
           )}
         />
-        <div>Other filters</div>
+       
+        
       </div>
     );
   }
@@ -79,6 +80,10 @@ class Result extends React.Component {
     return (
       <div className="resultWrapper">
         <div className="resultHeader">Results</div>
+        <div className='sortElements'>
+        <div className='sortByDate'>Sort by end date ⇅</div>
+        <div className='sortByDate'>Sort by price ⇅</div>
+        </div>
       </div>
     );
   }
