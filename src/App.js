@@ -32,7 +32,7 @@ class TagFilter extends React.Component {
   render() {
     return (
       <div className="tagFilterWraper">
-        <div className="tagFilterHeader">Choose the filters, please</div>
+        <div className="tagFilterHeader">Choose the tags, please</div>
         <Autocomplete
           options={filters}
           getOptionLabel={option => option.title}
@@ -53,7 +53,7 @@ class TagContainer extends React.Component {
   render() {
     return (
       <div className="tagContainerWrapper">
-        <div className="tagContainerHeader">Filters you chose</div>
+        <div className="tagContainerHeader">Tags you chose</div>
         <div className="tagContainer">
           {this.props.tags.map(elem => (
             <div className="tagWrapper">
